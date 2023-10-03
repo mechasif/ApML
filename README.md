@@ -15,7 +15,7 @@ To solve this:
    Before modifying the Python environment, you need to activate the specific environment used by ESP-IDF.
 
    ```bash
-   source YourDirectory/python_env/idf4.4_py3.10_env/bin/activate
+   source Your_Espressif_Installation_Directory/python_env/idf4.4_py3.10_env/bin/activate
    ```
 
 2. **Downgrade the `pyparsing` Version**:
@@ -31,7 +31,7 @@ To solve this:
    Sometimes, it's good to re-run the provided ESP-IDF installation script after manually resolving dependency issues. This ensures that all other dependencies are in place:
 
    ```bash
-   YourDirectory/esp-idf/install.sh
+   Your_Espressif_Installation_Directory/esp-idf/install.sh
    ```
 
 4. **Verify the `pyparsing` Version**:
