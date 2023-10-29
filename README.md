@@ -1,6 +1,8 @@
-# ApML
+## ApML
 Getting started with ESP-EYE and Machine Learning
 
+##LAB2
+Collect a dataset consisting of images taken with a laptop webcam and then train an ML model to detect whether a person are in front of the laptop or not.
 
 ## Installation Issue
 
